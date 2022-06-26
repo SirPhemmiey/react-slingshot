@@ -18,7 +18,7 @@ jobs:
       - image: circleci/node:13.8.0
     steps: 
       - checkout
-      - run: npm run i 
+      - run: npm i 
       - run: npm run test
   analyze:
     docker:
